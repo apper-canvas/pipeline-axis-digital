@@ -1,0 +1,66 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Toast Overrides */
+.Toastify__toast {
+  @apply rounded-lg shadow-lg border font-sans text-sm;
+  min-height: 48px;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-green-200 text-gray-900;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-red-200 text-gray-900;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-blue-200 text-gray-900;
+}
+
+.Toastify__progress-bar {
+  @apply bg-primary;
+}
+
+/* Custom Scrollbars */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Drag and Drop Styles */
+.dragging {
+  @apply opacity-50 rotate-3 scale-105;
+  z-index: 1000;
+}
+
+.drop-zone {
+  @apply border-2 border-dashed border-primary bg-blue-50;
+}
+
+.drop-zone-active {
+  @apply border-solid bg-blue-100;
+}

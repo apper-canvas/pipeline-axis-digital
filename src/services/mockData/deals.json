@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "contactId": 1,
+    "title": "TechCorp Enterprise License",
+    "value": 45000,
+    "stage": "proposal",
+    "createdAt": "2024-01-15T08:30:00Z",
+    "updatedAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "contactId": 2,
+    "title": "InnovateTech Startup Package",
+    "value": 12000,
+    "stage": "negotiation",
+    "createdAt": "2024-01-10T09:15:00Z",
+    "updatedAt": "2024-01-18T11:20:00Z"
+  },
+  {
+    "Id": 3,
+    "contactId": 3,
+    "title": "Global Corp Implementation",
+    "value": 78000,
+    "stage": "qualified",
+    "createdAt": "2024-01-05T10:45:00Z",
+    "updatedAt": "2024-01-19T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "contactId": 4,
+    "title": "Startup Inc Basic Plan",
+    "value": 5000,
+    "stage": "lead",
+    "createdAt": "2024-01-12T13:20:00Z",
+    "updatedAt": "2024-01-17T09:10:00Z"
+  },
+  {
+    "Id": 5,
+    "contactId": 5,
+    "title": "Enterprise Solutions Premium",
+    "value": 95000,
+    "stage": "closed-won",
+    "createdAt": "2024-01-08T11:30:00Z",
+    "updatedAt": "2024-01-21T13:15:00Z"
+  }
+]

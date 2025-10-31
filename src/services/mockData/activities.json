@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "contactId": 1,
+    "type": "call",
+    "content": "Initial discovery call - discussed their current challenges with project management and budget constraints",
+    "timestamp": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "contactId": 2,
+    "type": "email",
+    "content": "Sent product demo video and pricing information for startup package",
+    "timestamp": "2024-01-18T11:20:00Z"
+  },
+  {
+    "Id": 3,
+    "contactId": 3,
+    "type": "meeting",
+    "content": "In-person meeting with decision makers - positive feedback on our solution",
+    "timestamp": "2024-01-19T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "contactId": 4,
+    "type": "note",
+    "content": "Follow-up needed - waiting for approval from their board of directors",
+    "timestamp": "2024-01-17T09:10:00Z"
+  },
+  {
+    "Id": 5,
+    "contactId": 5,
+    "type": "call",
+    "content": "Contract signed! Implementation to begin next month",
+    "timestamp": "2024-01-21T13:15:00Z"
+  },
+  {
+    "Id": 6,
+    "contactId": 1,
+    "type": "email",
+    "content": "Sent proposal with custom pricing based on their requirements",
+    "timestamp": "2024-01-16T10:15:00Z"
+  }
+]
